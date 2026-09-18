@@ -8,9 +8,10 @@ import {
   recordingFor,
   recordingCount,
 } from '../lib/speech'
+import { useStore } from '../store/useStore'
 import Icon from '../components/Icon'
 
-type Mode = 'menu' | 'listen' | 'words'
+type Mode = 'menu' | 'listen' | 'words' | 'list'
 
 /**
  * How a pair can be played. Both words must come from the SAME source — mixing a
@@ -25,11 +26,15 @@ function pairMode(p: MinimalPair): 'recording' | 'tts' | 'unplayable' {
 
 export default function Pronounce() {
   const [mode, setMode] = useState<Mode>('menu')
+  const pairsDone = useStore((s) => s.pairsDone)
   const pairs = useMemo(() => MINIMAL_PAIRS.filter((p) => pairMode(p) !== 'unplayable'), [])
+  const doneCount = pairs.filter((p) => pairsDone[p.id]).length
 
   if (mode === 'listen' && pairs.length > 0)
-    return <ListenDrill pairs={pairs} onBack={() => setMode('menu')} />
+    return <ListenDrill pairs={pairs} onBack={() => setMode('menu')} onList={() => setMode('list')} />
   if (mode === 'words') return <WordDrill onBack={() => setMode('menu')} />
+  if (mode === 'list')
+    return <PairList pairs={pairs} onBack={() => setMode('menu')} onPractise={() => setMode('listen')} />
 
   return (
     <div className="safe-top px-5 pb-6">
@@ -46,9 +51,10 @@ export default function Pronounce() {
           title="Listen and choose"
           sub={
             pairs.length > 0
-              ? `Hear a word, pick which of two you heard · ${pairs.length} pairs`
+              ? `${doneCount} of ${pairs.length} pairs mastered`
               : 'Needs a Swedish voice installed — see above'
           }
+          progress={pairs.length > 0 ? doneCount / pairs.length : undefined}
           disabled={pairs.length === 0}
           onClick={() => setMode('listen')}
         />
@@ -58,6 +64,14 @@ export default function Pronounce() {
           sub="Tap tricky words and repeat after the speaker"
           onClick={() => setMode('words')}
         />
+        {doneCount > 0 && (
+          <button
+            onClick={() => setMode('list')}
+            className="w-full py-1 text-center text-xs font-semibold text-slate-400"
+          >
+            See all pairs and progress
+          </button>
+        )}
       </div>
     </div>
   )
@@ -110,12 +124,14 @@ function MenuRow({
   sub,
   onClick,
   disabled,
+  progress,
 }: {
   icon: 'ear' | 'mic'
   title: string
   sub: string
   onClick: () => void
   disabled?: boolean
+  progress?: number
 }) {
   return (
     <button
@@ -126,58 +142,239 @@ function MenuRow({
       <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-blue/10 text-blue">
         <Icon name={icon} size={21} />
       </span>
-      <span className="flex-1">
+      <span className="min-w-0 flex-1">
         <span className="block font-semibold text-ink">{title}</span>
         <span className="block text-sm text-slate-500">{sub}</span>
+        {progress !== undefined && (
+          <span className="mt-2 block h-1.5 w-full overflow-hidden rounded-full bg-slate-100">
+            <span
+              className="block h-full rounded-full bg-emerald-500 transition-all duration-500"
+              style={{ width: `${progress * 100}%` }}
+            />
+          </span>
+        )}
       </span>
       <Icon name="chevronRight" size={18} className="shrink-0 text-slate-300" />
     </button>
   )
 }
 
-function ListenDrill({ pairs, onBack }: { pairs: MinimalPair[]; onBack: () => void }) {
-  const [i, setI] = useState(0)
+/** Compact overview of every pair, ticked where already mastered. */
+function PairList({
+  pairs,
+  onBack,
+  onPractise,
+}: {
+  pairs: MinimalPair[]
+  onBack: () => void
+  onPractise: () => void
+}) {
+  const pairsDone = useStore((s) => s.pairsDone)
+  const resetPairs = useStore((s) => s.resetPairs)
+  const done = pairs.filter((p) => pairsDone[p.id]).length
+
+  return (
+    <div className="safe-top px-5 pb-8">
+      <button onClick={onBack} className="pt-6 text-sm font-semibold text-blue">
+        ← Back
+      </button>
+      <h1 className="mt-2 text-2xl font-bold tracking-tight">Your pairs</h1>
+      <p className="mt-1 text-sm text-slate-500">
+        {done} of {pairs.length} mastered
+      </p>
+
+      <ul className="mt-4 divide-y divide-slate-100 overflow-hidden rounded-2xl border border-slate-200/70 bg-white">
+        {pairs.map((p) => {
+          const ok = Boolean(pairsDone[p.id])
+          return (
+            <li key={p.id} className="flex items-center gap-3 px-4 py-2.5">
+              <span
+                className={`grid h-6 w-6 shrink-0 place-items-center rounded-full ${
+                  ok ? 'bg-emerald-500 text-white' : 'border border-slate-200 text-transparent'
+                }`}
+              >
+                <Icon name="check" size={13} strokeWidth={2.6} />
+              </span>
+              <span className="min-w-0 flex-1">
+                <span
+                  className={`block truncate text-sm font-semibold ${
+                    ok ? 'text-slate-400' : 'text-ink'
+                  }`}
+                >
+                  {p.a.sv} · {p.b.sv}
+                </span>
+                <span className="block truncate text-xs text-slate-400">{p.focus}</span>
+              </span>
+            </li>
+          )
+        })}
+      </ul>
+
+      <button
+        onClick={onPractise}
+        className="mt-4 w-full rounded-2xl bg-blue py-4 font-semibold text-white shadow-sm transition active:scale-95"
+      >
+        {done === pairs.length ? 'Practise again' : 'Continue practising'}
+      </button>
+      {done > 0 && (
+        <button
+          onClick={() => {
+            if (confirm('Clear your pair progress and start over?')) resetPairs()
+          }}
+          className="mt-2 w-full py-2 text-center text-xs font-semibold text-slate-400"
+        >
+          Reset pair progress
+        </button>
+      )}
+    </div>
+  )
+}
+
+function ListenDrill({
+  pairs,
+  onBack,
+  onList,
+}: {
+  pairs: MinimalPair[]
+  onBack: () => void
+  onList: () => void
+}) {
+  const pairsDone = useStore((s) => s.pairsDone)
+  const markPairDone = useStore((s) => s.markPairDone)
+
+  // Work through the pairs not yet mastered. Captured once on mount so the queue
+  // does not reshuffle underneath the learner as they mark pairs off.
+  const [queue, setQueue] = useState<MinimalPair[]>(() => {
+    const todo = pairs.filter((p) => !pairsDone[p.id])
+    return todo.length > 0 ? todo : pairs
+  })
   const [target, setTarget] = useState<0 | 1>(() => (Math.random() < 0.5 ? 0 : 1))
   const [voiceIdx, setVoiceIdx] = useState(0)
   const [answered, setAnswered] = useState<number | null>(null)
-  const [score, setScore] = useState(0)
+  const [correct, setCorrect] = useState(0)
   const [attempts, setAttempts] = useState(0)
+  const [startCount] = useState(() => {
+    const todo = pairs.filter((p) => !pairsDone[p.id])
+    return todo.length > 0 ? todo.length : pairs.length
+  })
 
-  const pair = pairs[i]
+  const pair = queue[0]
+  const mastered = pairs.filter((p) => pairsDone[p.id]).length
+
+  // ── finished the queue ──
+  if (!pair) {
+    const allDone = mastered === pairs.length
+    return (
+      <div className="safe-top flex min-h-full flex-col items-center justify-center px-6 text-center">
+        <span
+          className={`grid h-16 w-16 place-items-center rounded-full ${
+            allDone ? 'bg-emerald-50 text-emerald-600' : 'bg-blue/10 text-blue'
+          }`}
+        >
+          <Icon name={allDone ? 'trophy' : 'check'} size={30} />
+        </span>
+        <h2 className="mt-4 text-2xl font-bold tracking-tight">
+          {allDone ? 'All pairs mastered!' : 'Round complete'}
+        </h2>
+        <p className="mt-1 text-slate-500">
+          {correct} of {attempts} correct this round.
+          <br />
+          {allDone
+            ? `You have now got all ${pairs.length} pairs right at least once.`
+            : `${mastered} of ${pairs.length} pairs mastered so far.`}
+        </p>
+
+        <div className="mt-8 flex w-full max-w-xs flex-col gap-3">
+          {!allDone && (
+            <button
+              onClick={() => {
+                setQueue(pairs.filter((p) => !pairsDone[p.id]))
+                setAnswered(null)
+                setCorrect(0)
+                setAttempts(0)
+              }}
+              className="rounded-2xl bg-blue py-4 font-semibold text-white shadow-sm transition active:scale-95"
+            >
+              Continue to the remaining pairs
+            </button>
+          )}
+          <button
+            onClick={() => {
+              setQueue(pairs)
+              setAnswered(null)
+              setCorrect(0)
+              setAttempts(0)
+            }}
+            className={`rounded-2xl py-4 font-semibold shadow-sm transition active:scale-95 ${
+              allDone ? 'bg-blue text-white' : 'border border-slate-200 bg-white text-slate-600'
+            }`}
+          >
+            Keep practising all {pairs.length}
+          </button>
+          <button
+            onClick={onList}
+            className="rounded-2xl border border-slate-200 bg-white py-4 font-semibold text-slate-600 shadow-sm transition active:scale-95"
+          >
+            See my progress
+          </button>
+          <button onClick={onBack} className="py-2 text-sm font-semibold text-slate-400">
+            Done for now
+          </button>
+        </div>
+      </div>
+    )
+  }
+
   const options = [pair.a, pair.b]
   const mode = pairMode(pair)
+  const done = startCount - queue.length
 
   const choose = (choice: number) => {
     if (answered !== null) return
     setAnswered(choice)
     setAttempts((a) => a + 1)
-    if (choice === target) setScore((s) => s + 1)
+    if (choice === target) {
+      setCorrect((c) => c + 1)
+      markPairDone(pair.id)
+    }
   }
 
-  const nextCard = () => {
-    const ni = (i + 1) % pairs.length
+  const next = () => {
+    const wasRight = answered === target
+    setQueue((q) => {
+      const [head, ...rest] = q
+      // A pair you got wrong comes back later in the round rather than vanishing.
+      return wasRight ? rest : [...rest, head]
+    })
     const nt: 0 | 1 = Math.random() < 0.5 ? 0 : 1
     const nv = voiceIdx + 1
-    setI(ni)
     setTarget(nt)
     setVoiceIdx(nv)
     setAnswered(null)
-    // Resolve the NEXT pair explicitly; `pair` above still points at the old index.
-    const next = pairs[ni]
-    const nextMode = pairMode(next)
-    setTimeout(() => {
-      speak([next.a, next.b][nt].sv, { voiceIndex: nv, preferTts: nextMode === 'tts' })
-    }, 60)
+
+    const upcoming = wasRight ? queue[1] : queue[1] ?? queue[0]
+    if (upcoming) {
+      const m = pairMode(upcoming)
+      setTimeout(() => {
+        speak([upcoming.a, upcoming.b][nt].sv, { voiceIndex: nv, preferTts: m === 'tts' })
+      }, 60)
+    }
   }
 
   return (
     <div className="safe-top px-5 pb-6">
-      <div className="flex items-center justify-between pt-6">
-        <button onClick={onBack} className="text-sm font-semibold text-blue">
-          ← Back
+      <div className="flex items-center gap-3 pt-6">
+        <button onClick={onBack} className="text-slate-400 transition active:scale-90" aria-label="Exit">
+          <Icon name="close" size={20} />
         </button>
+        <div className="h-2 flex-1 overflow-hidden rounded-full bg-slate-200">
+          <div
+            className="h-full rounded-full bg-emerald-500 transition-all"
+            style={{ width: `${startCount > 0 ? (done / startCount) * 100 : 0}%` }}
+          />
+        </div>
         <span className="text-sm font-semibold text-slate-500">
-          {score}/{attempts}
+          {done}/{startCount}
         </span>
       </div>
 
@@ -236,12 +433,23 @@ function ListenDrill({ pairs, onBack }: { pairs: MinimalPair[]; onBack: () => vo
       </div>
 
       {answered !== null && (
-        <button
-          onClick={nextCard}
-          className="mt-5 w-full rounded-2xl bg-ink py-4 font-bold text-white shadow-sm transition active:scale-95"
-        >
-          Next →
-        </button>
+        <>
+          <p
+            className={`mt-4 text-center text-sm font-semibold ${
+              answered === target ? 'text-emerald-600' : 'text-rose-600'
+            }`}
+          >
+            {answered === target
+              ? 'Correct — pair mastered.'
+              : `Not quite — it was "${options[target].sv}". This one comes back later.`}
+          </p>
+          <button
+            onClick={next}
+            className="mt-3 w-full rounded-2xl bg-ink py-4 font-semibold text-white shadow-sm transition active:scale-95"
+          >
+            Next →
+          </button>
+        </>
       )}
     </div>
   )

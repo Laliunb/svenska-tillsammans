@@ -28,6 +28,8 @@ interface LessonProgress {
 export interface SyncableState {
   cards: Record<string, SrsState>
   lessons: Record<string, LessonProgress>
+  /** Minimal-pair ids the learner has identified correctly at least once. */
+  pairsDone: Record<string, boolean>
   streak: number
   lastActiveDate: string
   freezes: number
@@ -56,6 +58,8 @@ interface AppState extends SyncableState {
   addExtraNewToday: (n: number) => void
   gradeCard: (id: string, grade: Grade, now?: number) => void
   completeLesson: (id: string, score: number) => void
+  markPairDone: (id: string) => void
+  resetPairs: () => void
   reviewsToday: (now?: number) => number
   effectiveStreak: (now?: number) => number
   dueCardIds: (now?: number) => string[]
@@ -80,6 +84,7 @@ export const useStore = create<AppState>()(
     (set, get) => ({
       cards: {},
       lessons: {},
+      pairsDone: {},
       streak: 0,
       lastActiveDate: '',
       freezes: 2,
@@ -161,6 +166,12 @@ export const useStore = create<AppState>()(
         })
       },
 
+      markPairDone: (id) =>
+        set((s) =>
+          s.pairsDone[id] ? {} : { pairsDone: { ...s.pairsDone, [id]: true }, xp: s.xp + 5 },
+        ),
+      resetPairs: () => set({ pairsDone: {} }),
+
       reviewsToday: (now = Date.now()) => get().reviewsByDate[dayKey(now)] ?? 0,
 
       effectiveStreak: (now = Date.now()) => {
@@ -209,6 +220,7 @@ export const useStore = create<AppState>()(
         set({
           cards: data.cards ?? {},
           lessons: data.lessons ?? {},
+          pairsDone: data.pairsDone ?? {},
           streak: data.streak ?? 0,
           lastActiveDate: data.lastActiveDate ?? '',
           freezes: data.freezes ?? 0,
@@ -221,6 +233,7 @@ export const useStore = create<AppState>()(
         return {
           cards: s.cards,
           lessons: s.lessons,
+          pairsDone: s.pairsDone,
           streak: s.streak,
           lastActiveDate: s.lastActiveDate,
           freezes: s.freezes,
@@ -233,6 +246,7 @@ export const useStore = create<AppState>()(
         set({
           cards: {},
           lessons: {},
+          pairsDone: {},
           streak: 0,
           lastActiveDate: '',
           freezes: 2,
