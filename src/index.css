@@ -1,0 +1,52 @@
+@import 'tailwindcss';
+
+@theme {
+  /* Swedish flag palette */
+  --color-blue: #006aa7;
+  --color-blue-deep: #004b7a;
+  --color-yellow: #fecc00;
+  --color-ink: #0f172a;
+}
+
+:root {
+  color-scheme: light;
+  -webkit-tap-highlight-color: transparent;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  background: #f1f5f9;
+  color: var(--color-ink);
+  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  overscroll-behavior-y: none;
+}
+
+/* Respect iOS/Android safe areas (notches, home indicator) */
+.safe-top {
+  padding-top: env(safe-area-inset-top);
+}
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+@keyframes pop {
+  0% { transform: scale(0.96); opacity: 0; }
+  100% { transform: scale(1); opacity: 1; }
+}
+.animate-pop {
+  animation: pop 0.18s ease-out;
+}
+
+@keyframes flip-in {
+  0% { transform: rotateX(90deg); opacity: 0; }
+  100% { transform: rotateX(0); opacity: 1; }
+}
+.animate-flip {
+  animation: flip-in 0.25s ease-out;
+}
