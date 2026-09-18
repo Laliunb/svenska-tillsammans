@@ -22,7 +22,10 @@ export default function Today({
   const xp = useStore((s) => s.xp)
   const reviewsToday = useStore((s) => s.reviewsToday())
   const streak = useStore((s) => s.effectiveStreak())
-  const session = useStore((s) => s.buildSession())
+  // Select the COUNT, not the array: a selector returning a fresh array every
+  // call never produces a stable snapshot, which sends useSyncExternalStore into
+  // an infinite re-render loop and blanks the page.
+  const sessionCount = useStore((s) => s.buildSession().length)
   const seen = useStore((s) => s.seenCount())
   const mastered = useStore((s) => s.masteredCount())
 
@@ -71,13 +74,13 @@ export default function Today({
         <p className="mt-3 text-center text-sm text-slate-600">
           {goalHit
             ? 'Daily goal reached — snyggt jobbat! 🎉'
-            : session.length > 0
-              ? `${session.length} card${session.length === 1 ? '' : 's'} ready for you.`
+            : sessionCount > 0
+              ? `${sessionCount} card${sessionCount === 1 ? '' : 's'} ready for you.`
               : 'All caught up. Come back later for reviews.'}
         </p>
         <button
           onClick={onStartReview}
-          disabled={session.length === 0}
+          disabled={sessionCount === 0}
           className="mt-4 w-full rounded-2xl bg-blue py-4 text-lg font-bold text-white shadow-md transition active:scale-[0.98] disabled:opacity-40"
         >
           {goalHit ? 'Keep going ▶' : 'Start today’s session ▶'}
