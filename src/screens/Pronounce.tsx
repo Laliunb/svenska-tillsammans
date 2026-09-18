@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { MINIMAL_PAIRS, PRONOUNCE_WORDS, type MinimalPair } from '../data/pronunciation'
 import { speak, hasSpeech, hasSwedishVoice, voiceCount } from '../lib/speech'
+import Icon from '../components/Icon'
 
 type Mode = 'menu' | 'listen' | 'words'
 
@@ -10,7 +11,9 @@ export default function Pronounce() {
   if (!hasSpeech()) {
     return (
       <div className="safe-top px-6 pt-20 text-center">
-        <div className="text-5xl">🔇</div>
+        <span className="mx-auto grid h-16 w-16 place-items-center rounded-full bg-slate-100 text-slate-400">
+          <Icon name="muted" size={30} />
+        </span>
         <h1 className="mt-4 text-xl font-bold">No speech support</h1>
         <p className="mt-2 text-slate-500">
           This browser can’t play speech. Try Chrome, Edge, or Safari.
@@ -24,7 +27,7 @@ export default function Pronounce() {
 
   return (
     <div className="safe-top px-5 pb-6">
-      <h1 className="pt-6 text-2xl font-bold">Speak 🔊</h1>
+      <h1 className="pt-6 text-2xl font-bold tracking-tight">Speak</h1>
       <p className="mt-1 text-sm text-slate-500">
         Train your ear on the sounds English doesn’t have.
       </p>
@@ -47,27 +50,31 @@ export default function Pronounce() {
           onClick={() => setMode('listen')}
           className="flex w-full items-center gap-3 rounded-2xl bg-white p-4 text-left shadow-sm active:scale-[0.99]"
         >
-          <span className="text-3xl">👂</span>
+          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-blue/10 text-blue">
+            <Icon name="ear" size={21} />
+          </span>
           <span className="flex-1">
             <span className="block font-semibold">Listen & choose</span>
             <span className="block text-sm text-slate-500">
               Hear a word, pick which of two you heard
             </span>
           </span>
-          <span className="text-slate-300">›</span>
+          <Icon name="chevronRight" size={18} className="shrink-0 text-slate-300" />
         </button>
         <button
           onClick={() => setMode('words')}
           className="flex w-full items-center gap-3 rounded-2xl bg-white p-4 text-left shadow-sm active:scale-[0.99]"
         >
-          <span className="text-3xl">🗣️</span>
+          <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-blue/10 text-blue">
+            <Icon name="mic" size={21} />
+          </span>
           <span className="flex-1">
             <span className="block font-semibold">Practice words</span>
             <span className="block text-sm text-slate-500">
               Tap tricky words and repeat after the voice
             </span>
           </span>
-          <span className="text-slate-300">›</span>
+          <Icon name="chevronRight" size={18} className="shrink-0 text-slate-300" />
         </button>
       </div>
     </div>
@@ -136,7 +143,9 @@ function ListenDrill({ onBack }: { onBack: () => void }) {
         onClick={() => playTarget()}
         className="mt-6 w-full rounded-3xl bg-blue py-8 text-2xl font-bold text-white shadow-md active:scale-[0.98]"
       >
-        🔊 Play the word
+        <span className="flex items-center justify-center gap-2.5">
+          <Icon name="speaker" size={26} /> Play the word
+        </span>
       </button>
       <p className="mt-2 text-center text-xs text-slate-400">
         Tap to replay · voices rotate each round
@@ -199,7 +208,7 @@ function WordDrill({ onBack }: { onBack: () => void }) {
       <button onClick={onBack} className="pt-6 text-sm font-semibold text-blue">
         ← Back
       </button>
-      <h1 className="mt-2 text-2xl font-bold">Practice words 🗣️</h1>
+      <h1 className="mt-2 text-2xl font-bold tracking-tight">Practice words</h1>
       <p className="mt-1 text-sm text-slate-500">
         Tap to hear it, then say it out loud. Aim for the sound, not perfection.
       </p>
@@ -210,7 +219,9 @@ function WordDrill({ onBack }: { onBack: () => void }) {
               onClick={() => play(w.sv)}
               className="flex w-full items-center gap-3 rounded-2xl bg-white p-4 text-left shadow-sm active:scale-[0.99]"
             >
-              <span className="text-2xl">🔊</span>
+              <span className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-blue/10 text-blue">
+                <Icon name="speaker" size={19} />
+              </span>
               <span className="flex-1">
                 <span className="block text-lg font-bold text-ink">{w.sv}</span>
                 <span className="block text-sm text-slate-500">{w.en}</span>

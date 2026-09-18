@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { LESSONS, type Lesson } from '../data/lessons'
 import { useStore } from '../store/useStore'
 import { speak, hasSpeech } from '../lib/speech'
+import Icon from '../components/Icon'
 
 export default function Lessons() {
   const [active, setActive] = useState<Lesson | null>(null)
@@ -11,7 +12,7 @@ export default function Lessons() {
 
   return (
     <div className="safe-top px-5 pb-6">
-      <h1 className="pt-6 text-2xl font-bold">Grammar 📘</h1>
+      <h1 className="pt-6 text-2xl font-bold tracking-tight">Grammar</h1>
       <p className="mt-1 text-sm text-slate-500">
         Short, plain-English lessons. 2–4 minutes each.
       </p>
@@ -24,7 +25,9 @@ export default function Lessons() {
                 onClick={() => setActive(l)}
                 className="flex w-full items-center gap-3 rounded-2xl bg-white p-4 text-left shadow-sm active:scale-[0.99]"
               >
-                <span className="text-3xl">{l.emoji}</span>
+                <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-blue/10 text-blue">
+                  <Icon name={l.icon} size={21} />
+                </span>
                 <span className="flex-1">
                   <span className="block font-semibold text-ink">{l.title}</span>
                   <span className="block text-sm text-slate-500">{l.summary}</span>
@@ -56,8 +59,9 @@ function LessonView({ lesson, onBack }: { lesson: Lesson; onBack: () => void }) 
 
       {!quizMode ? (
         <>
-          <h1 className="mt-2 text-2xl font-bold">
-            {lesson.emoji} {lesson.title}
+          <h1 className="mt-3 flex items-center gap-2.5 text-2xl font-bold tracking-tight">
+            <Icon name={lesson.icon} size={24} className="text-blue" />
+            {lesson.title}
           </h1>
           <div className="mt-4 space-y-4">
             {lesson.points.map((pt, i) => (
@@ -72,10 +76,10 @@ function LessonView({ lesson, onBack }: { lesson: Lesson; onBack: () => void }) 
                         {hasSpeech() && (
                           <button
                             onClick={() => speak(ex.sv)}
-                            className="text-lg text-blue"
+                            className="text-blue transition active:scale-90"
                             aria-label="Play"
                           >
-                            🔊
+                            <Icon name="speaker" size={18} />
                           </button>
                         )}
                       </div>
@@ -130,7 +134,9 @@ function Quiz({ lesson, onBack }: { lesson: Lesson; onBack: () => void }) {
     const score = Math.round((correct / lesson.quiz.length) * 100)
     return (
       <div className="mt-10 flex flex-col items-center text-center">
-        <div className="text-6xl">{score >= 100 ? '🏆' : score >= 50 ? '👍' : '📖'}</div>
+        <span className="grid h-16 w-16 place-items-center rounded-full bg-blue/10 text-blue">
+          <Icon name={score >= 100 ? 'trophy' : score >= 50 ? 'check' : 'book'} size={30} />
+        </span>
         <h2 className="mt-3 text-2xl font-bold">{score}%</h2>
         <p className="mt-1 text-slate-500">
           {correct}/{lesson.quiz.length} correct · +XP earned

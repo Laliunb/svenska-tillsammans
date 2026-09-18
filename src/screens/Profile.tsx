@@ -1,5 +1,6 @@
 import { useStore } from '../store/useStore'
 import { isCloudConfigured } from '../lib/supabase'
+import Icon from '../components/Icon'
 
 export default function Profile() {
   const displayName = useStore((s) => s.displayName)
@@ -18,7 +19,7 @@ export default function Profile() {
 
   return (
     <div className="safe-top px-5 pb-10">
-      <h1 className="pt-6 text-2xl font-bold">Settings ⚙️</h1>
+      <h1 className="pt-6 text-2xl font-bold tracking-tight">Settings</h1>
 
       <section className="mt-4 space-y-4 rounded-2xl bg-white p-4 shadow-sm">
         <Field label="Your name">
@@ -79,9 +80,16 @@ export default function Profile() {
       </section>
 
       <section className="mt-4 rounded-2xl bg-white p-4 text-sm text-slate-500 shadow-sm">
-        <p>
-          <strong className="text-ink">Cloud sync:</strong>{' '}
-          {isCloudConfigured ? 'configured ✅' : 'not set up yet (offline mode)'}
+        <p className="flex items-center gap-2">
+          <Icon
+            name={isCloudConfigured ? 'cloud' : 'ban'}
+            size={17}
+            className={isCloudConfigured ? 'text-emerald-600' : 'text-slate-400'}
+          />
+          <span>
+            <strong className="text-ink">Cloud sync:</strong>{' '}
+            {isCloudConfigured ? 'configured' : 'not set up yet (offline mode)'}
+          </span>
         </p>
       </section>
 
@@ -97,7 +105,7 @@ export default function Profile() {
       </button>
 
       <p className="mt-6 text-center text-xs text-slate-400">
-        Svenska Tillsammans · built with ❤️ for two
+        Svenska Tillsammans — built for two
       </p>
     </div>
   )

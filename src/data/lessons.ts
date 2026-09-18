@@ -21,10 +21,12 @@ export interface QuizQuestion {
   explain: string
 }
 
+import type { IconName } from '../components/Icon'
+
 export interface Lesson {
   id: string
   title: string
-  emoji: string
+  icon: IconName
   summary: string
   minutes: number
   points: LessonPoint[]
@@ -35,7 +37,7 @@ export const LESSONS: Lesson[] = [
   {
     id: 'en-ett',
     title: 'en & ett — the two genders',
-    emoji: '⚖️',
+    icon: 'scale',
     summary: 'Every Swedish noun is either an "en" word or an "ett" word.',
     minutes: 3,
     points: [
@@ -76,7 +78,7 @@ export const LESSONS: Lesson[] = [
   {
     id: 'verbs-present',
     title: 'Verbs are easy in the present',
-    emoji: '✨',
+    icon: 'sparkle',
     summary: 'One verb form for everybody — no "I am / he is" changes.',
     minutes: 3,
     points: [
@@ -118,7 +120,7 @@ export const LESSONS: Lesson[] = [
   {
     id: 'word-order',
     title: 'The verb likes second place',
-    emoji: '🥈',
+    icon: 'medal',
     summary: 'In a statement, the verb is almost always the 2nd idea.',
     minutes: 4,
     points: [
@@ -157,7 +159,7 @@ export const LESSONS: Lesson[] = [
   {
     id: 'negation',
     title: 'Saying "not" with inte',
-    emoji: '🚫',
+    icon: 'ban',
     summary: 'Put "inte" right after the verb.',
     minutes: 2,
     points: [

@@ -3,6 +3,7 @@ import { useStore } from '../store/useStore'
 import { cardById } from '../data/vocab'
 import { schedule, freshCard, type Grade } from '../lib/srs'
 import { speak, hasSpeech } from '../lib/speech'
+import Icon from '../components/Icon'
 
 const GRADES: { grade: Grade; label: string; hint: string; cls: string }[] = [
   { grade: 'again', label: 'Again', hint: '<1 min', cls: 'bg-rose-500' },
@@ -88,7 +89,9 @@ export default function Flashcards({
   if (!card) {
     return (
       <div className="safe-top flex min-h-full flex-col items-center justify-center px-6 text-center">
-        <div className="text-6xl">🎉</div>
+        <span className="grid h-16 w-16 place-items-center rounded-full bg-emerald-50 text-emerald-600">
+          <Icon name="trophy" size={30} />
+        </span>
         <h2 className="mt-4 text-2xl font-bold">Session complete!</h2>
         <p className="mt-1 text-slate-500">
           You reviewed {done} card{done === 1 ? '' : 's'}. Bra jobbat!
@@ -118,8 +121,12 @@ export default function Flashcards({
     <div className="safe-top flex min-h-full flex-col px-5 pb-6">
       {/* progress */}
       <div className="flex items-center gap-3 pt-5">
-        <button onClick={onExit} className="text-2xl text-slate-400" aria-label="Exit">
-          ✕
+        <button
+          onClick={onExit}
+          className="text-slate-400 transition active:scale-90"
+          aria-label="Exit"
+        >
+          <Icon name="close" size={20} />
         </button>
         <div className="h-2.5 flex-1 overflow-hidden rounded-full bg-slate-200">
           <div
@@ -158,9 +165,9 @@ export default function Flashcards({
       {hasSpeech() && (
         <button
           onClick={() => speak(card.sv)}
-          className="mt-3 flex items-center justify-center gap-2 rounded-2xl bg-white py-3 font-semibold text-blue shadow-sm active:scale-95"
+          className="mt-3 flex items-center justify-center gap-2 rounded-2xl border border-slate-200/70 bg-white py-3 text-sm font-semibold text-blue shadow-sm transition active:scale-95"
         >
-          🔊 Hear it in Swedish
+          <Icon name="speaker" size={17} /> Hear it in Swedish
         </button>
       )}
 
@@ -203,7 +210,9 @@ function StartOrEmpty({
 }) {
   return (
     <div className="safe-top flex min-h-full flex-col items-center justify-center px-6 text-center">
-      <div className="text-6xl">🃏</div>
+      <span className="grid h-16 w-16 place-items-center rounded-full bg-blue/10 text-blue">
+        <Icon name="cards" size={30} />
+      </span>
       <h2 className="mt-4 text-2xl font-bold">{title}</h2>
       <p className="mt-2 max-w-xs text-slate-500">{body}</p>
       <button

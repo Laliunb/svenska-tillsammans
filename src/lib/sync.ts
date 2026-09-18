@@ -3,6 +3,7 @@
 // owns one `progress` row keyed by their auth user id; we push our syncable
 // slice up and pull the partner's row down to display shared progress.
 
+import { useEffect } from 'react'
 import { supabase } from './supabase'
 import { useStore, type SyncableState } from '../store/useStore'
 
@@ -44,4 +45,37 @@ export async function fetchPartners(): Promise<PartnerProgress[]> {
     updatedAt: r.updated_at as string,
     data: r.data as SyncableState,
   }))
+}
+
+/**
+ * Keeps the cloud copy current without the user thinking about it: pushes a
+ * debounced snapshot whenever learning state changes, plus once on sign-in.
+ * Inert when signed out or when Supabase isn't configured.
+ */
+export function useAutoSync(signedIn: boolean): void {
+  useEffect(() => {
+    if (!supabase || !signedIn) return
+
+    let timer: ReturnType<typeof setTimeout> | undefined
+    const queue = () => {
+      clearTimeout(timer)
+      timer = setTimeout(() => {
+        void pushProgress()
+      }, 2500)
+    }
+
+    void pushProgress() // initial snapshot on sign-in
+
+    // Only react to state that actually represents progress.
+    const unsub = useStore.subscribe((s, prev) => {
+      if (s.cards !== prev.cards || s.lessons !== prev.lessons || s.xp !== prev.xp) {
+        queue()
+      }
+    })
+
+    return () => {
+      clearTimeout(timer)
+      unsub()
+    }
+  }, [signedIn])
 }

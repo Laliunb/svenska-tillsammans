@@ -1,4 +1,6 @@
 import { useState } from 'react'
+import { useAuth } from './lib/auth'
+import { useAutoSync } from './lib/sync'
 import BottomNav, { type Tab } from './components/BottomNav'
 import Today from './screens/Today'
 import Flashcards from './screens/Flashcards'
@@ -8,6 +10,9 @@ import Together from './screens/Together'
 import Profile from './screens/Profile'
 
 export default function App() {
+  const { user } = useAuth()
+  useAutoSync(Boolean(user))
+
   const [tab, setTab] = useState<Tab>('today')
   // Flashcards can be launched from Today; we lift that intent here.
   const [reviewOpen, setReviewOpen] = useState(false)

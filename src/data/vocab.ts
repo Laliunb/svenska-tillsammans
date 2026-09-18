@@ -27,21 +27,23 @@ export interface VocabCard {
   note?: string
 }
 
+import type { IconName } from '../components/Icon'
+
 export interface Unit {
   id: string
   title: string
   titleSv: string
-  emoji: string
+  icon: IconName
   blurb: string
 }
 
 export const UNITS: Unit[] = [
-  { id: 'greetings', title: 'Greetings & basics', titleSv: 'Hälsningar', emoji: '👋', blurb: 'The first words you need to be friendly.' },
-  { id: 'people', title: 'People & family', titleSv: 'Människor & familj', emoji: '👪', blurb: 'Talk about who is in your life.' },
-  { id: 'verbs', title: 'Everyday verbs', titleSv: 'Vardagsverb', emoji: '🏃', blurb: 'The actions you use every single day.' },
-  { id: 'food', title: 'Food & drink', titleSv: 'Mat & dryck', emoji: '🍽️', blurb: 'Order, cook, and shop in Swedish.' },
-  { id: 'numbers', title: 'Numbers & time', titleSv: 'Tal & tid', emoji: '🕐', blurb: 'Count, tell the time, and make plans.' },
-  { id: 'everyday', title: 'Everyday words', titleSv: 'Vardagsord', emoji: '🏠', blurb: 'Small words that hold sentences together.' },
+  { id: 'greetings', title: 'Greetings & basics', titleSv: 'Hälsningar', icon: 'sparkle', blurb: 'The first words you need to be friendly.' },
+  { id: 'people', title: 'People & family', titleSv: 'Människor & familj', icon: 'users', blurb: 'Talk about who is in your life.' },
+  { id: 'verbs', title: 'Everyday verbs', titleSv: 'Vardagsverb', icon: 'arrowRight', blurb: 'The actions you use every single day.' },
+  { id: 'food', title: 'Food & drink', titleSv: 'Mat & dryck', icon: 'utensils', blurb: 'Order, cook, and shop in Swedish.' },
+  { id: 'numbers', title: 'Numbers & time', titleSv: 'Tal & tid', icon: 'clock', blurb: 'Count, tell the time, and make plans.' },
+  { id: 'everyday', title: 'Everyday words', titleSv: 'Vardagsord', icon: 'house', blurb: 'Small words that hold sentences together.' },
 ]
 
 export const VOCAB: VocabCard[] = [
