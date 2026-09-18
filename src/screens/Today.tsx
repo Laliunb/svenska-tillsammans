@@ -29,6 +29,8 @@ export default function Today({
   const sessionCount = useStore((s) => s.buildSession().length)
   const seen = useStore((s) => s.seenCount())
   const mastered = useStore((s) => s.masteredCount())
+  const addExtraNewToday = useStore((s) => s.addExtraNewToday)
+  const unseen = VOCAB.length - seen
 
   const goalHit = reviewsToday >= dailyGoal
   const g = greeting()
@@ -85,6 +87,17 @@ export default function Today({
           <Icon name="play" size={18} filled />
           {goalHit ? 'Keep going' : 'Start today’s session'}
         </button>
+        {sessionCount === 0 && unseen > 0 && (
+          <button
+            onClick={() => {
+              addExtraNewToday(5)
+              onStartReview()
+            }}
+            className="mt-2 w-full rounded-2xl border border-slate-200 py-3 text-sm font-semibold text-blue transition active:scale-95"
+          >
+            Learn 5 more words now
+          </button>
+        )}
       </section>
 
       {/* vocabulary progress */}

@@ -7,6 +7,7 @@ export default function Profile() {
   const partnerName = useStore((s) => s.partnerName)
   const dailyGoal = useStore((s) => s.dailyGoal)
   const direction = useStore((s) => s.direction)
+  const newPerDay = useStore((s) => s.newPerDay)
   const freezes = useStore((s) => s.freezes)
   const seen = useStore((s) => s.seenCount())
   const mastered = useStore((s) => s.masteredCount())
@@ -15,6 +16,7 @@ export default function Profile() {
   const setPartnerName = useStore((s) => s.setPartnerName)
   const setDailyGoal = useStore((s) => s.setDailyGoal)
   const setDirection = useStore((s) => s.setDirection)
+  const setNewPerDay = useStore((s) => s.setNewPerDay)
   const resetAll = useStore((s) => s.resetAll)
 
   return (
@@ -52,6 +54,22 @@ export default function Profile() {
           />
           <p className="mt-1 text-xs text-slate-400">
             Small and daily beats big and rare — 10–20 is a great habit.
+          </p>
+        </Field>
+
+        <Field label={`New words per day — ${newPerDay}`}>
+          <input
+            type="range"
+            min={3}
+            max={40}
+            step={1}
+            value={newPerDay}
+            onChange={(e) => setNewPerDay(Number(e.target.value))}
+            className="w-full accent-[var(--color-blue)]"
+          />
+          <p className="mt-1 text-xs text-slate-400">
+            How many brand-new words get introduced each day. Raise it to move
+            faster; every new word also comes back for review later.
           </p>
         </Field>
 

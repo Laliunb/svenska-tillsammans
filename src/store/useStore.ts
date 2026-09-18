@@ -52,6 +52,8 @@ interface AppState extends SyncableState {
   setPartnerName: (n: string) => void
   setDailyGoal: (n: number) => void
   setDirection: (d: 'sv-en' | 'en-sv') => void
+  setNewPerDay: (n: number) => void
+  addExtraNewToday: (n: number) => void
   gradeCard: (id: string, grade: Grade, now?: number) => void
   completeLesson: (id: string, score: number) => void
   reviewsToday: (now?: number) => number
@@ -87,7 +89,7 @@ export const useStore = create<AppState>()(
       displayName: 'Me',
       partnerName: '',
       dailyGoal: 20,
-      newPerDay: 6,
+      newPerDay: 12,
       direction: 'sv-en',
       newToday: 0,
       newTodayDate: '',
@@ -96,6 +98,11 @@ export const useStore = create<AppState>()(
       setPartnerName: (n) => set({ partnerName: n.trim() }),
       setDailyGoal: (n) => set({ dailyGoal: Math.max(5, Math.min(100, n)) }),
       setDirection: (d) => set({ direction: d }),
+      setNewPerDay: (n) => set({ newPerDay: Math.max(3, Math.min(40, n)) }),
+      // "Learn more now": lends today's budget extra new cards without changing
+      // the daily setting, by crediting the counter that caps them.
+      addExtraNewToday: (n) =>
+        set((s) => ({ newToday: Math.max(0, s.newToday - n) })),
 
       gradeCard: (id, grade, now = Date.now()) => {
         const state = get()
