@@ -5,11 +5,13 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "build": "node scripts/check-data.mjs && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview",
     "smoke": "node scripts/smoke.mjs http://localhost:4174/svenska-tillsammans/",
-    "flow": "node scripts/flow.mjs http://localhost:4174/svenska-tillsammans/"
+    "flow": "node scripts/flow.mjs http://localhost:4174/svenska-tillsammans/",
+    "check": "node scripts/check-data.mjs",
+    "audio": "node scripts/fetch-audio.mjs"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.116.0",
