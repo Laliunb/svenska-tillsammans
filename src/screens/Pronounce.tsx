@@ -74,9 +74,9 @@ export default function Pronounce() {
   )
 }
 
-// Deterministic-ish picker without Math.random dependency concerns: uses time.
+// Randomly choose which of the two words in the pair gets played.
 function pickTarget(): 0 | 1 {
-  return (Date.now() % 2) as 0 | 1
+  return Math.random() < 0.5 ? 0 : 1
 }
 
 function ListenDrill({ onBack }: { onBack: () => void }) {
@@ -110,7 +110,8 @@ function ListenDrill({ onBack }: { onBack: () => void }) {
     setVoiceIdx(nv)
     setAnswered(null)
     // small delay so the UI updates before audio
-    setTimeout(() => speak([pair.a, pair.b][nt].sv, { voiceIndex: nv }), 50)
+    const nextPair = MINIMAL_PAIRS[ni]
+    setTimeout(() => speak([nextPair.a, nextPair.b][nt].sv, { voiceIndex: nv }), 50)
   }
 
   return (
