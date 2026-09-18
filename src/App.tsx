@@ -1,6 +1,7 @@
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useAuth } from './lib/auth'
 import { useAutoSync } from './lib/sync'
+import { useStore } from './store/useStore'
 import BottomNav, { type Tab } from './components/BottomNav'
 import Today from './screens/Today'
 import Flashcards from './screens/Flashcards'
@@ -12,6 +13,15 @@ import Profile from './screens/Profile'
 export default function App() {
   const { user } = useAuth()
   useAutoSync(Boolean(user))
+
+  // Adopt the name from the signed-in account, but only while the user has not
+  // chosen one — otherwise both partners show up as the default "Me" on the
+  // shared scoreboard. A name they set by hand is never overwritten.
+  const displayName = useStore((s) => s.displayName)
+  const setDisplayName = useStore((s) => s.setDisplayName)
+  useEffect(() => {
+    if (user?.name && displayName === 'Me') setDisplayName(user.name)
+  }, [user, displayName, setDisplayName])
 
   const [tab, setTab] = useState<Tab>('today')
   // Flashcards can be launched from Today; we lift that intent here.
