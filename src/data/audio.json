@@ -1,1148 +1,1554 @@
 {
   "bok": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sv-bok.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sv-bok.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Sv-bok.ogg/Sv-bok.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "bok"
   },
   "dag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sv-dag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e8/Sv-dag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e8/Sv-dag.ogg/Sv-dag.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "dag"
   },
   "full": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/65/Sv-full.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/65/Sv-full.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/65/Sv-full.ogg/Sv-full.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "full"
   },
   "dörr": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sv-d%C3%B6rr.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/7e/Sv-d%C3%B6rr.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7e/Sv-d%C3%B6rr.ogg/Sv-d%C3%B6rr.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "dörr"
   },
   "ful": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Sv-ful.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Sv-ful.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4c/Sv-ful.ogg/Sv-ful.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "ful"
   },
   "bröd": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-br%C3%B6d.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-br%C3%B6d.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Sv-br%C3%B6d.ogg/Sv-br%C3%B6d.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "bröd"
   },
   "fem": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sv-fem.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sv-fem.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Sv-fem.ogg/Sv-fem.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "fem"
   },
   "fyra": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sv-fyra.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Sv-fyra.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8d/Sv-fyra.ogg/Sv-fyra.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "fyra"
   },
   "gå": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sv-g%C3%A5.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/56/Sv-g%C3%A5.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/56/Sv-g%C3%A5.ogg/Sv-g%C3%A5.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "gå"
   },
   "hand": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sv-hand.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sv-hand.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Sv-hand.ogg/Sv-hand.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hand"
   },
   "dricka": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Sv-dricka.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Sv-dricka.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2f/Sv-dricka.ogg/Sv-dricka.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "dricka"
   },
   "fru": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sv-fru.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Sv-fru.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5c/Sv-fru.ogg/Sv-fru.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "fru"
   },
   "gata": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Sv-gata.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/Sv-gata.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2a/Sv-gata.ogg/Sv-gata.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "gata"
   },
   "bror": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sv-bror.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sv-bror.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Sv-bror.ogg/Sv-bror.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "bror"
   },
   "fisk": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sv-fisk.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sv-fisk.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Sv-fisk.ogg/Sv-fisk.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "fisk"
   },
   "bord": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sv-bord.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sv-bord.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Sv-bord.ogg/Sv-bord.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "bord"
   },
   "fredag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sv-fredag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sv-fredag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Sv-fredag.ogg/Sv-fredag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "fredag"
   },
   "du": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sv-du.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sv-du.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/Sv-du.ogg/Sv-du.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "du"
   },
   "familj": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sv-familj.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sv-familj.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Sv-familj.ogg/Sv-familj.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "familj"
   },
   "granne": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sv-granne.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/16/Sv-granne.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/16/Sv-granne.ogg/Sv-granne.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "granne"
   },
   "han": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Sv-han.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4f/Sv-han.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4f/Sv-han.ogg/Sv-han.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "han"
   },
   "fönster": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Sv-f%C3%B6nster.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Sv-f%C3%B6nster.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Sv-f%C3%B6nster.ogg/Sv-f%C3%B6nster.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "fönster"
   },
   "de": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Sv-de.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Sv-de.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bc/Sv-de.ogg/Sv-de.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "de"
   },
   "frisk": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/23/Sv-frisk.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/23/Sv-frisk.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/23/Sv-frisk.ogg/Sv-frisk.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "frisk"
   },
   "bra": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sv-bra.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sv-bra.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/Sv-bra.ogg/Sv-bra.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "bra"
   },
   "gul": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-gul.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-gul.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Sv-gul.ogg/Sv-gul.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "gul"
   },
   "grön": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sv-gr%C3%B6n.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sv-gr%C3%B6n.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Sv-gr%C3%B6n.ogg/Sv-gr%C3%B6n.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "grön"
   },
   "förlåt": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Sv-f%C3%B6rl%C3%A5t.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cd/Sv-f%C3%B6rl%C3%A5t.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cd/Sv-f%C3%B6rl%C3%A5t.ogg/Sv-f%C3%B6rl%C3%A5t.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "förlåt"
   },
   "aldrig": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sv-aldrig.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/28/Sv-aldrig.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/28/Sv-aldrig.ogg/Sv-aldrig.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "aldrig"
   },
   "fin": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sv-fin.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/99/Sv-fin.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/99/Sv-fin.ogg/Sv-fin.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "fin"
   },
   "förstå": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sv-f%C3%B6rst%C3%A5.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sv-f%C3%B6rst%C3%A5.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/35/Sv-f%C3%B6rst%C3%A5.ogg/Sv-f%C3%B6rst%C3%A5.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "förstå"
   },
   "gammal": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sv-gammal.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/9c/Sv-gammal.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9c/Sv-gammal.ogg/Sv-gammal.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "gammal"
   },
   "blå": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sv-bl%C3%A5.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sv-bl%C3%A5.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/Sv-bl%C3%A5.ogg/Sv-bl%C3%A5.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "blå"
   },
   "buss": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/78/Sv-buss.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/78/Sv-buss.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/78/Sv-buss.ogg/Sv-buss.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "buss"
   },
   "får": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sv-f%C3%A5r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sv-f%C3%A5r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Sv-f%C3%A5r.ogg/Sv-f%C3%A5r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "får"
   },
   "bo": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sv-bo.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sv-bo.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Sv-bo.ogg/Sv-bo.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "bo"
   },
   "bil": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sv-bil.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/50/Sv-bil.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/50/Sv-bil.ogg/Sv-bil.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "bil"
   },
   "affär": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Sv-aff%C3%A4r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Sv-aff%C3%A4r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Sv-aff%C3%A4r.ogg/Sv-aff%C3%A4r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "affär"
   },
   "ha": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sv-ha.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Sv-ha.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/ef/Sv-ha.ogg/Sv-ha.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ha"
   },
   "gott": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sv-gott.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sv-gott.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Sv-gott.ogg/Sv-gott.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "gott"
   },
   "barn": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-barn.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-barn.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Sv-barn.ogg/Sv-barn.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "barn"
   },
   "far": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sv-far.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/95/Sv-far.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/95/Sv-far.ogg/Sv-far.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "far"
   },
   "glas": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sv-glas.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sv-glas.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Sv-glas.ogg/Sv-glas.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "glas"
   },
   "glad": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sv-glad.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Sv-glad.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4d/Sv-glad.ogg/Sv-glad.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "glad"
   },
   "alltid": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sv-alltid.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/96/Sv-alltid.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/96/Sv-alltid.ogg/Sv-alltid.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "alltid"
   },
   "en": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sv-en.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Sv-en.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e7/Sv-en.ogg/Sv-en.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "en"
   },
   "glass": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sv-glass.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sv-glass.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4e/Sv-glass.ogg/Sv-glass.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "glass"
   },
   "hal": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Sv-hal.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/cf/Sv-hal.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/cf/Sv-hal.ogg/Sv-hal.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hal"
   },
   "kött": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sv-k%C3%B6tt.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Sv-k%C3%B6tt.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/4b/Sv-k%C3%B6tt.ogg/Sv-k%C3%B6tt.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "kött"
   },
   "mal": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sv-mal.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sv-mal.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Sv-mal.ogg/Sv-mal.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "mal"
   },
   "häl": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sv-h%C3%A4l.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Sv-h%C3%A4l.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d4/Sv-h%C3%A4l.ogg/Sv-h%C3%A4l.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "häl"
   },
   "här": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sv-h%C3%A4r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sv-h%C3%A4r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Sv-h%C3%A4r.ogg/Sv-h%C3%A4r.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "här"
   },
   "hundra": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sv-hundra.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sv-hundra.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Sv-hundra.ogg/Sv-hundra.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hundra"
   },
   "igår": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sv-ig%C3%A5r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Sv-ig%C3%A5r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1a/Sv-ig%C3%A5r.ogg/Sv-ig%C3%A5r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "igår"
   },
   "hej": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sv-hej.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Sv-hej.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1f/Sv-hej.ogg/Sv-hej.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hej"
   },
   "jag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sv-jag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c5/Sv-jag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c5/Sv-jag.ogg/Sv-jag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "jag"
   },
   "helg": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/76/Sv-helg.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/76/Sv-helg.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/76/Sv-helg.ogg/Sv-helg.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "helg"
   },
   "läsa": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sv-l%C3%A4sa.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/7c/Sv-l%C3%A4sa.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7c/Sv-l%C3%A4sa.ogg/Sv-l%C3%A4sa.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "läsa"
   },
   "kär": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sv-k%C3%A4r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sv-k%C3%A4r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Sv-k%C3%A4r.ogg/Sv-k%C3%A4r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kär"
   },
   "kvinna": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sv-kvinna.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sv-kvinna.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Sv-kvinna.ogg/Sv-kvinna.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kvinna"
   },
   "land": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sv-land.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Sv-land.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ac/Sv-land.ogg/Sv-land.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "land"
   },
   "liten": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sv-liten.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sv-liten.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Sv-liten.ogg/Sv-liten.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "liten"
   },
   "kanske": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sv-kanske.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sv-kanske.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/Sv-kanske.ogg/Sv-kanske.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kanske"
   },
   "inte": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sv-inte.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Sv-inte.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2e/Sv-inte.ogg/Sv-inte.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "inte"
   },
   "hur": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sv-hur.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sv-hur.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Sv-hur.ogg/Sv-hur.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hur"
   },
   "kor": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sv-kor.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sv-kor.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Sv-kor.ogg/Sv-kor.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kor"
   },
   "kärlek": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sv-k%C3%A4rlek.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sv-k%C3%A4rlek.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/Sv-k%C3%A4rlek.ogg/Sv-k%C3%A4rlek.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kärlek"
   },
   "lite": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sv-lite.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Sv-lite.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a1/Sv-lite.ogg/Sv-lite.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "lite"
   },
   "läkare": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sv-l%C3%A4kare.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sv-l%C3%A4kare.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Sv-l%C3%A4kare.ogg/Sv-l%C3%A4kare.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "läkare"
   },
   "man": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sv-man.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Sv-man.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3f/Sv-man.ogg/Sv-man.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "man"
   },
   "mamma": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sv-mamma.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/38/Sv-mamma.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/38/Sv-mamma.ogg/Sv-mamma.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "mamma"
   },
   "huvud": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sv-huvud.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sv-huvud.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Sv-huvud.ogg/Sv-huvud.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "huvud"
   },
   "idag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sv-idag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sv-idag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5e/Sv-idag.ogg/Sv-idag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "idag"
   },
   "köpa": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sv-k%C3%B6pa.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sv-k%C3%B6pa.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Sv-k%C3%B6pa.ogg/Sv-k%C3%B6pa.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "köpa"
   },
   "kök": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sv-k%C3%B6k.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/69/Sv-k%C3%B6k.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/69/Sv-k%C3%B6k.ogg/Sv-k%C3%B6k.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kök"
   },
   "hjälp": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sv-hj%C3%A4lp.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Sv-hj%C3%A4lp.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d5/Sv-hj%C3%A4lp.ogg/Sv-hj%C3%A4lp.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hjälp"
   },
   "hus": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sv-hus.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/41/Sv-hus.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/41/Sv-hus.ogg/Sv-hus.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hus"
   },
   "hund": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Sv-hund.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Sv-hund.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/bb/Sv-hund.ogg/Sv-hund.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hund"
   },
   "hår": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sv-h%C3%A5r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a5/Sv-h%C3%A5r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a5/Sv-h%C3%A5r.ogg/Sv-h%C3%A5r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hår"
   },
   "hjälpa": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sv-hj%C3%A4lpa.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/03/Sv-hj%C3%A4lpa.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/03/Sv-hj%C3%A4lpa.ogg/Sv-hj%C3%A4lpa.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hjälpa"
   },
   "kör": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sv-k%C3%B6r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/01/Sv-k%C3%B6r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/01/Sv-k%C3%B6r.ogg/Sv-k%C3%B6r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kör"
   },
   "hemma": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Sv-hemma.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Sv-hemma.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d0/Sv-hemma.ogg/Sv-hemma.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hemma"
   },
   "hungrig": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sv-hungrig.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5d/Sv-hungrig.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5d/Sv-hungrig.ogg/Sv-hungrig.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hungrig"
   },
   "lördag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sv-l%C3%B6rdag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/72/Sv-l%C3%B6rdag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/72/Sv-l%C3%B6rdag.ogg/Sv-l%C3%B6rdag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "lördag"
   },
   "heta": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sv-heta.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e3/Sv-heta.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e3/Sv-heta.ogg/Sv-heta.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "heta"
   },
   "komma": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sv-komma.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Sv-komma.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a3/Sv-komma.ogg/Sv-komma.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "komma"
   },
   "ja": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sv-ja.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sv-ja.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Sv-ja.ogg/Sv-ja.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ja"
   },
   "kaffe": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/06/Sv-kaffe.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/06/Sv-kaffe.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/06/Sv-kaffe.ogg/Sv-kaffe.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "kaffe"
   },
   "imorgon": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sv-imorgon.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Sv-imorgon.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6d/Sv-imorgon.ogg/Sv-imorgon.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "imorgon"
   },
   "lägenhet": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sv-l%C3%A4genhet.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sv-l%C3%A4genhet.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/Sv-l%C3%A4genhet.ogg/Sv-l%C3%A4genhet.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "lägenhet"
   },
   "hon": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sv-hon.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sv-hon.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Sv-hon.ogg/Sv-hon.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "hon"
   },
   "höger": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sv-h%C3%B6ger.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/52/Sv-h%C3%B6ger.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/52/Sv-h%C3%B6ger.ogg/Sv-h%C3%B6ger.ogg.mp3",
     "license": "CC0",
-    "artist": "LA2"
+    "artist": "LA2",
+    "source": "Shtooka",
+    "word": "höger"
   },
   "hör": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sv-h%C3%B6r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/84/Sv-h%C3%B6r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/84/Sv-h%C3%B6r.ogg/Sv-h%C3%B6r.ogg.mp3",
     "license": "CC0",
-    "artist": "LA2"
+    "artist": "LA2",
+    "source": "Shtooka",
+    "word": "hör"
   },
   "jobba": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sv-jobba.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/12/Sv-jobba.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/12/Sv-jobba.ogg/Sv-jobba.ogg.mp3",
     "license": "CC0",
-    "artist": "LA2"
+    "artist": "LA2",
+    "source": "Shtooka",
+    "word": "jobba"
   },
   "kallt": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sv-kallt.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sv-kallt.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Sv-kallt.ogg/Sv-kallt.ogg.mp3",
     "license": "CC0",
-    "artist": "LA2"
+    "artist": "LA2",
+    "source": "Shtooka",
+    "word": "kallt"
   },
   "mat": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sv-mat.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Sv-mat.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e6/Sv-mat.ogg/Sv-mat.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "mat"
   },
   "matt": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sv-matt.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sv-matt.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/Sv-matt.ogg/Sv-matt.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "matt"
   },
   "mål": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sv-m%C3%A5l.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/27/Sv-m%C3%A5l.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/27/Sv-m%C3%A5l.ogg/Sv-m%C3%A5l.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "mål"
   },
   "sot": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sv-sot.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/97/Sv-sot.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/97/Sv-sot.ogg/Sv-sot.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "sot"
   },
   "nio": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sv-nio.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sv-nio.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Sv-nio.ogg/Sv-nio.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "nio"
   },
   "sex": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sv-sex.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/40/Sv-sex.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/40/Sv-sex.ogg/Sv-sex.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "sex"
   },
   "sju": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/18/Sv-sju.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/18/Sv-sju.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/18/Sv-sju.ogg/Sv-sju.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "sju"
   },
   "sjuksköterska": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Sv-sjuksk%C3%B6terska.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fb/Sv-sjuksk%C3%B6terska.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fb/Sv-sjuksk%C3%B6terska.ogg/Sv-sjuksk%C3%B6terska.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "sjuksköterska"
   },
   "nej": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sv-nej.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sv-nej.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Sv-nej.ogg/Sv-nej.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "nej"
   },
   "säng": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sv-s%C3%A4ng.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Sv-s%C3%A4ng.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/eb/Sv-s%C3%A4ng.ogg/Sv-s%C3%A4ng.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "säng"
   },
   "men": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sv-men.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/15/Sv-men.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Sv-men.ogg/Sv-men.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "men"
   },
   "syster": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-syster.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-syster.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Sv-syster.ogg/Sv-syster.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "syster"
   },
   "skriva": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sv-skriva.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/21/Sv-skriva.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/21/Sv-skriva.ogg/Sv-skriva.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "skriva"
   },
   "pappa": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sv-pappa.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/36/Sv-pappa.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/36/Sv-pappa.ogg/Sv-pappa.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "pappa"
   },
   "när": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sv-n%C3%A4r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Sv-n%C3%A4r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c3/Sv-n%C3%A4r.ogg/Sv-n%C3%A4r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "när"
   },
   "sommar": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sv-sommar.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5b/Sv-sommar.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/5b/Sv-sommar.ogg/Sv-sommar.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "sommar"
   },
   "mjölk": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sv-mj%C3%B6lk.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sv-mj%C3%B6lk.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Sv-mj%C3%B6lk.ogg/Sv-mj%C3%B6lk.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "mjölk"
   },
   "snäll": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Sv-sn%C3%A4ll.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/ab/Sv-sn%C3%A4ll.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ab/Sv-sn%C3%A4ll.ogg/Sv-sn%C3%A4ll.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "snäll"
   },
   "svart": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sv-svart.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sv-svart.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Sv-svart.ogg/Sv-svart.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "svart"
   },
   "stol": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/62/Sv-stol.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/62/Sv-stol.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/62/Sv-stol.ogg/Sv-stol.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "stol"
   },
   "måndag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sv-m%C3%A5ndag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/3a/Sv-m%C3%A5ndag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3a/Sv-m%C3%A5ndag.ogg/Sv-m%C3%A5ndag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "måndag"
   },
   "rum": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sv-rum.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sv-rum.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Sv-rum.ogg/Sv-rum.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "rum"
   },
   "stad": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sv-stad.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2b/Sv-stad.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2b/Sv-stad.ogg/Sv-stad.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "stad"
   },
   "stor": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sv-stor.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d1/Sv-stor.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d1/Sv-stor.ogg/Sv-stor.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "stor"
   },
   "sova": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sv-sova.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/30/Sv-sova.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/30/Sv-sova.ogg/Sv-sova.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "sova"
   },
   "också": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-ocks%C3%A5.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-ocks%C3%A5.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Sv-ocks%C3%A5.ogg/Sv-ocks%C3%A5.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "också"
   },
   "syn": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sv-syn.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sv-syn.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/Sv-syn.ogg/Sv-syn.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "syn"
   },
   "skär": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sv-sk%C3%A4r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sv-sk%C3%A4r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Sv-sk%C3%A4r.ogg/Sv-sk%C3%A4r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "skär"
   },
   "se": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/17/Sv-se.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Sv-se.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Sv-se.ogg/Sv-se.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "se"
   },
   "nära": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sv-n%C3%A4ra.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/93/Sv-n%C3%A4ra.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/93/Sv-n%C3%A4ra.ogg/Sv-n%C3%A4ra.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "nära"
   },
   "ost": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sv-ost.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sv-ost.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Sv-ost.ogg/Sv-ost.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ost"
   },
   "ofta": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sv-ofta.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Sv-ofta.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a6/Sv-ofta.ogg/Sv-ofta.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ofta"
   },
   "röd": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sv-r%C3%B6d.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/70/Sv-r%C3%B6d.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/70/Sv-r%C3%B6d.ogg/Sv-r%C3%B6d.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "röd"
   },
   "ni": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Sv-ni.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/8c/Sv-ni.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/8c/Sv-ni.ogg/Sv-ni.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ni"
   },
   "ny": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sv-ny.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/3d/Sv-ny.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/3d/Sv-ny.ogg/Sv-ny.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ny"
   },
   "sjuk": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sv-sjuk.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sv-sjuk.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Sv-sjuk.ogg/Sv-sjuk.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "sjuk"
   },
   "nu": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sv-nu.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/39/Sv-nu.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/39/Sv-nu.ogg/Sv-nu.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "nu"
   },
   "sol": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sv-sol.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sv-sol.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Sv-sol.ogg/Sv-sol.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "sol"
   },
   "snart": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/89/Sv-snart.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/89/Sv-snart.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/89/Sv-snart.ogg/Sv-snart.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "snart"
   },
   "och": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sv-och.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/33/Sv-och.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/33/Sv-och.ogg/Sv-och.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "och"
   },
   "sin": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/55/Sv-sin.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/55/Sv-sin.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/55/Sv-sin.ogg/Sv-sin.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "sin"
   },
   "skog": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-skog.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-skog.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Sv-skog.ogg/Sv-skog.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "skog"
   },
   "regn": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/29/Sv-regn.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/29/Sv-regn.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/29/Sv-regn.ogg/Sv-regn.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "regn"
   },
   "onsdag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/af/Sv-onsdag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/af/Sv-onsdag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/af/Sv-onsdag.ogg/Sv-onsdag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "onsdag"
   },
   "skola": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sv-skola.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Sv-skola.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/aa/Sv-skola.ogg/Sv-skola.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "skola"
   },
   "mycket": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sv-mycket.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f0/Sv-mycket.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f0/Sv-mycket.ogg/Sv-mycket.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "mycket"
   },
   "restaurang": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sv-restaurang.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sv-restaurang.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Sv-restaurang.ogg/Sv-restaurang.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "restaurang"
   },
   "snö": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sv-sn%C3%B6.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/be/Sv-sn%C3%B6.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/be/Sv-sn%C3%B6.ogg/Sv-sn%C3%B6.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "snö"
   },
   "månad": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-m%C3%A5nad.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/0b/Sv-m%C3%A5nad.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/0b/Sv-m%C3%A5nad.ogg/Sv-m%C3%A5nad.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
-  },
-  "nyckel": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/34/Sv-nycklar.oga",
-    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/34/Sv-nycklar.oga/Sv-nycklar.oga.mp3",
-    "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "månad"
   },
   "åka": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sv-%C3%A5ka.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Sv-%C3%A5ka.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b8/Sv-%C3%A5ka.ogg/Sv-%C3%A5ka.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "åka"
   },
   "åtta": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sv-%C3%A5tta.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Sv-%C3%A5tta.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b0/Sv-%C3%A5tta.ogg/Sv-%C3%A5tta.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "åtta"
   },
   "öl": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sv-%C3%B6l.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/61/Sv-%C3%B6l.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/61/Sv-%C3%B6l.ogg/Sv-%C3%B6l.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "öl"
   },
   "två": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sv-tv%C3%A5.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sv-tv%C3%A5.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Sv-tv%C3%A5.ogg/Sv-tv%C3%A5.ogg.mp3",
     "license": "CC BY-SA 3.0",
-    "artist": ""
+    "artist": "",
+    "source": "Shtooka",
+    "word": "två"
   },
   "tio": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sv-tio.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/54/Sv-tio.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/54/Sv-tio.ogg/Sv-tio.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tio"
   },
   "tjugo": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/75/Sv-tjugo.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/75/Sv-tjugo.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/75/Sv-tjugo.ogg/Sv-tjugo.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tjugo"
   },
   "tre": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Sv-tre.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Sv-tre.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c8/Sv-tre.ogg/Sv-tre.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
-  },
-  "öga": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Sv-%C3%B6ga.ogg",
-    "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9e/Sv-%C3%B6ga.ogg/Sv-%C3%B6ga.ogg.mp3",
-    "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tre"
   },
   "vara": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sv-vara.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b6/Sv-vara.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b6/Sv-vara.ogg/Sv-vara.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vara"
   },
   "år": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sv-%C3%A5r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Sv-%C3%A5r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7f/Sv-%C3%A5r.ogg/Sv-%C3%A5r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "år"
   },
   "vän": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sv-v%C3%A4n.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sv-v%C3%A4n.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/98/Sv-v%C3%A4n.ogg/Sv-v%C3%A4n.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vän"
   },
   "vi": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sv-vi.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Sv-vi.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/dc/Sv-vi.ogg/Sv-vi.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vi"
   },
   "vind": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sv-vind.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/20/Sv-vind.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/20/Sv-vind.ogg/Sv-vind.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vind"
   },
   "vilja": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sv-vilja.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/26/Sv-vilja.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/26/Sv-vilja.ogg/Sv-vilja.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vilja"
   },
   "tack": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sv-tack.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Sv-tack.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/b/b9/Sv-tack.ogg/Sv-tack.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tack"
   },
   "trött": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sv-tr%C3%B6tt.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sv-tr%C3%B6tt.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/57/Sv-tr%C3%B6tt.ogg/Sv-tr%C3%B6tt.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "trött"
   },
   "tycka": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sv-tycka.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/7/7d/Sv-tycka.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/7/7d/Sv-tycka.ogg/Sv-tycka.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tycka"
   },
   "ursäkta": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sv-urs%C3%A4kta.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sv-urs%C3%A4kta.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Sv-urs%C3%A4kta.ogg/Sv-urs%C3%A4kta.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ursäkta"
   },
   "söt": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sv-s%C3%B6t.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/51/Sv-s%C3%B6t.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/5/51/Sv-s%C3%B6t.ogg/Sv-s%C3%B6t.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "söt"
   },
   "älska": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Sv-%C3%A4lska.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d2/Sv-%C3%A4lska.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d2/Sv-%C3%A4lska.ogg/Sv-%C3%A4lska.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "älska"
   },
   "torsdag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sv-torsdag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Sv-torsdag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/a4/Sv-torsdag.ogg/Sv-torsdag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "torsdag"
   },
   "vit": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sv-vit.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Sv-vit.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/e/e0/Sv-vit.ogg/Sv-vit.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vit"
   },
   "te": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sv-te.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/82/Sv-te.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/82/Sv-te.ogg/Sv-te.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "te"
   },
   "veta": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sv-veta.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Sv-veta.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c6/Sv-veta.ogg/Sv-veta.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "veta"
   },
   "tisdag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sv-tisdag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/83/Sv-tisdag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/83/Sv-tisdag.ogg/Sv-tisdag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tisdag"
   },
   "vinter": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/64/Sv-vinter.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/64/Sv-vinter.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/64/Sv-vinter.ogg/Sv-vinter.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vinter"
   },
   "var": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sv-var.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Sv-var.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/d9/Sv-var.ogg/Sv-var.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "var"
   },
   "söndag": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sv-s%C3%B6ndag.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/49/Sv-s%C3%B6ndag.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/49/Sv-s%C3%B6ndag.ogg/Sv-s%C3%B6ndag.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "söndag"
   },
   "van": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sv-van.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/1e/Sv-van.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/1e/Sv-van.ogg/Sv-van.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "van"
   },
   "vilken": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-vilken.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/67/Sv-vilken.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/67/Sv-vilken.ogg/Sv-vilken.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vilken"
   },
   "tala": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/00/Sv-tala.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/00/Sv-tala.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/00/Sv-tala.ogg/Sv-tala.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tala"
   },
   "vem": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sv-vem.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/35/Sv-vem.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/3/35/Sv-vem.ogg/Sv-vem.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vem"
   },
   "tak": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Sv-tak.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Sv-tak.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/c/c2/Sv-tak.ogg/Sv-tak.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tak"
   },
   "vad": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sv-vad.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/43/Sv-vad.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/43/Sv-vad.ogg/Sv-vad.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vad"
   },
   "vecka": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sv-vecka.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/45/Sv-vecka.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/4/45/Sv-vecka.ogg/Sv-vecka.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vecka"
   },
   "välkommen": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sv-v%C3%A4lkommen.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/8/80/Sv-v%C3%A4lkommen.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/8/80/Sv-v%C3%A4lkommen.ogg/Sv-v%C3%A4lkommen.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "välkommen"
   },
   "tåg": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sv-t%C3%A5g.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/de/Sv-t%C3%A5g.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/d/de/Sv-t%C3%A5g.ogg/Sv-t%C3%A5g.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tåg"
   },
   "väder": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/1/17/Sv-v%C3%A4der.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/1/17/Sv-v%C3%A4der.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/1/17/Sv-v%C3%A4der.ogg/Sv-v%C3%A4der.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "väder"
   },
   "timme": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sv-timme.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2d/Sv-timme.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/2/2d/Sv-timme.ogg/Sv-timme.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "timme"
   },
   "vatten": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Sv-vatten.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/f6/Sv-vatten.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/f6/Sv-vatten.ogg/Sv-vatten.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vatten"
   },
   "varför": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sv-varf%C3%B6r.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/04/Sv-varf%C3%B6r.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/04/Sv-varf%C3%B6r.ogg/Sv-varf%C3%B6r.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "varför"
   },
   "vänster": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sv-v%C3%A4nster.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Sv-v%C3%A4nster.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/9/9a/Sv-v%C3%A4nster.ogg/Sv-v%C3%A4nster.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "vänster"
   },
   "ute": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sv-ute.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/0/08/Sv-ute.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/0/08/Sv-ute.ogg/Sv-ute.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "ute"
   },
   "tillsammans": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sv-tillsammans.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/a/ad/Sv-tillsammans.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/a/ad/Sv-tillsammans.ogg/Sv-tillsammans.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "tillsammans"
   },
   "varsågod": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Sv-vars%C3%A5god.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Sv-vars%C3%A5god.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/f/fd/Sv-vars%C3%A5god.ogg/Sv-vars%C3%A5god.ogg.mp3",
     "license": "CC BY 2.0 fr",
-    "artist": "M. Kihlstedt, N. Vion"
+    "artist": "M. Kihlstedt, N. Vion",
+    "source": "Shtooka",
+    "word": "varsågod"
   },
   "äpple": {
-    "ogg": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sv-%C3%A4pple.ogg",
+    "src": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Sv-%C3%A4pple.ogg",
     "mp3": "https://upload.wikimedia.org/wikipedia/commons/transcoded/6/6c/Sv-%C3%A4pple.ogg/Sv-%C3%A4pple.ogg.mp3",
     "license": "CC BY-SA 4.0",
-    "artist": "Jonatan Svensson Glad"
+    "artist": "Jonatan Svensson Glad",
+    "source": "Shtooka",
+    "word": "äpple"
+  },
+  "där": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/d/d8/LL-Q9027_%28swe%29-Moonhouse-d%C3%A4r.wav",
+    "mp3": null,
+    "license": "CC0",
+    "artist": "Speaker: Moonhouse Recorder: Moonhouse",
+    "source": "Lingua Libre",
+    "word": "där"
+  },
+  "frukost": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/3/32/LL-Q9027_%28swe%29-Moonhouse-frukost.wav",
+    "mp3": null,
+    "license": "CC0",
+    "artist": "Speaker: Moonhouse Recorder: Moonhouse",
+    "source": "Lingua Libre",
+    "word": "frukost"
+  },
+  "nyckel": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/4/4e/LL-Q9027_%28swe%29-Christoffre-nyckel.wav",
+    "mp3": null,
+    "license": "CC0",
+    "artist": "Speaker: Christoffre Recorder: Christoffre",
+    "source": "Lingua Libre",
+    "word": "nyckel"
+  },
+  "varmt": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/5/5c/LL-Q9027_%28swe%29-Christoffre-varmt.wav",
+    "mp3": null,
+    "license": "CC0",
+    "artist": "Speaker: Christoffre Recorder: Christoffre",
+    "source": "Lingua Libre",
+    "word": "varmt"
+  },
+  "äta": {
+    "src": "https://upload.wikimedia.org/wikipedia/commons/2/2a/LL-Q9027_%28swe%29-Moonhouse-%C3%A4ta.wav",
+    "mp3": null,
+    "license": "CC0",
+    "artist": "Speaker: Moonhouse Recorder: Moonhouse",
+    "source": "Lingua Libre",
+    "word": "äta"
   }
 }

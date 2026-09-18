@@ -3,27 +3,34 @@
 ## Audio — native-speaker recordings
 
 Spoken Swedish in this app comes from real recordings by native speakers, hosted
-on [Wikimedia Commons](https://commons.wikimedia.org). **173 of the 183 words**
-in the decks have one; the rest fall back to the device's Swedish voice if one is
-installed, and stay silent if not.
+on [Wikimedia Commons](https://commons.wikimedia.org). **194 words** have one;
+the rest fall back to the device's Swedish voice if one is installed, and stay
+silent if not.
 
-These recordings are reused under their Creative Commons licences, which require
-attribution. Per-word attribution (contributor and licence for every single file)
-is stored alongside each entry in [`src/data/audio.json`](src/data/audio.json).
+Two collections are used:
+
+| Recordings | Collection |
+| ---: | --- |
+| 189 | **Shtooka** (`Sv-<word>.ogg`) — M. Kihlstedt & N. Vion, plus other Commons contributors |
+| 5 | **[Lingua Libre](https://lingualibre.org)** (`LL-Q9027 (swe)-…`) — Moonhouse, Christoffre |
+
+Licences, all requiring attribution except CC0:
 
 | Recordings | Licence |
 | ---: | --- |
-| 150 | [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/deed.en) |
-| 19 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
-| 3 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
+| 159 | [CC BY 2.0 FR](https://creativecommons.org/licenses/by/2.0/fr/deed.en) |
+| 25 | [CC BY-SA 3.0](https://creativecommons.org/licenses/by-sa/3.0/) |
+| 9 | [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) |
 | 1 | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) |
 
-**Contributors:** M. Kihlstedt & N. Vion (the *Lingua Libre* / Shtooka Swedish
-recordings), LA2, and Jonatan Svensson Glad.
+Per-word attribution — contributor, licence and source collection for every
+single file — is stored alongside each entry in
+[`src/data/audio.json`](src/data/audio.json).
 
-Audio is streamed from Wikimedia's servers rather than re-hosted here, so each
-file is served with its own Commons file page and licence metadata. The manifest
-is regenerated with `node scripts/fetch-audio.mjs`.
+Audio streams from Wikimedia's servers rather than being re-hosted here, so each
+file keeps its own Commons file page and licence metadata. The manifest is
+rebuilt with `npm run audio`, which verifies that a file really is a recording
+of the word it is filed under before accepting it.
 
 ## Learning content
 

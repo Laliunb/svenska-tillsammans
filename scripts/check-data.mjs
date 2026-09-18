@@ -68,6 +68,22 @@ console.log(`  ${playable.length}/${pairs.length} pairs have recordings for BOTH
 if (playable.length < 5)
   err(`only ${playable.length} pairs are fully playable — the drill needs a reasonable set`)
 
+// ── audio manifest integrity ─────────────────────────────────────────
+// Guards against a recording that is filed under one word but actually contains
+// another (Commons has e.g. an "Sv-öga.ogg" whose description says "ögon").
+let badEntries = 0
+for (const [word, e] of Object.entries(audio)) {
+  if (!e.src) { err(`audio "${word}": no src URL`); badEntries++; continue }
+  const file = decodeURIComponent(e.src.split('/').pop() ?? '').toLowerCase()
+  if (!file.includes(word.toLowerCase())) {
+    err(`audio "${word}": filename "${file}" does not contain the word`)
+    badEntries++
+  }
+  if (e.src.endsWith('.ogg') && !e.mp3)
+    warn(`audio "${word}": ogg without an mp3 fallback (Safari cannot play it)`)
+}
+console.log(`audio entries: ${Object.keys(audio).length} (${badEntries} malformed)`)
+
 // ── vocabulary ───────────────────────────────────────────────────────
 const cards = [...vocabSrc.matchAll(/\{ id: '([^']+)', sv: '([^']+)'/g)].map((m) => ({
   id: m[1],

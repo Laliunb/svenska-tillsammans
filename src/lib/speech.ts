@@ -12,13 +12,17 @@
 import AUDIO from '../data/audio.json'
 
 export interface AudioEntry {
-  ogg: string
-  mp3: string
+  /** The original file on Commons (.ogg or .wav) — no re-encoding. */
+  src: string
+  /** MP3 transcode for Safari/iOS, which cannot decode Ogg Vorbis. Null for .wav. */
+  mp3: string | null
   license: string
   artist: string
+  source: string
+  word: string
 }
 
-const RECORDINGS = AUDIO as Record<string, AudioEntry>
+const RECORDINGS = AUDIO as unknown as Record<string, AudioEntry>
 
 /** Recordings are of bare headwords: "en bil" -> "bil", "att gå" -> "gå". */
 export function headword(text: string): string {
@@ -74,16 +78,41 @@ export function speechModeFor(text: string): SpeechMode {
   return 'none'
 }
 
+let canPlayOgg: boolean | null = null
+
+function supportsOgg(): boolean {
+  if (canPlayOgg !== null) return canPlayOgg
+  if (typeof document === 'undefined') return false
+  const a = document.createElement('audio')
+  // '' means no, 'maybe'/'probably' mean yes.
+  canPlayOgg = a.canPlayType('audio/ogg; codecs="vorbis"') !== ''
+  return canPlayOgg
+}
+
+/**
+ * Choose which rendition to play. The ORIGINAL is preferred: Wikimedia's MP3
+ * renditions are re-encodes, and MP3 encoder delay can add an audible artifact
+ * at the very start of a short clip — enough to make "tack" sound like it has a
+ * vowel in front of it. The MP3 exists only for Safari/iOS, which cannot decode
+ * Ogg Vorbis.
+ */
+function preferredSource(entry: AudioEntry): string {
+  if (entry.src.endsWith('.wav')) return entry.src
+  if (supportsOgg()) return entry.src
+  return entry.mp3 ?? entry.src
+}
+
 let current: HTMLAudioElement | null = null
 
 function playRecording(entry: AudioEntry): void {
   current?.pause()
-  const audio = new Audio(entry.mp3)
+  const first = preferredSource(entry)
+  const audio = new Audio(first)
   current = audio
-  // Safari/iOS cannot decode Ogg Vorbis, most others can; if the MP3 transcode
-  // is unavailable for a file, fall back to the original Ogg.
   audio.onerror = () => {
-    const fallback = new Audio(entry.ogg)
+    const alt = first === entry.src ? entry.mp3 : entry.src
+    if (!alt) return
+    const fallback = new Audio(alt)
     current = fallback
     void fallback.play().catch(() => {})
   }
@@ -110,7 +139,6 @@ export function speak(text: string, opts: SpeakOptions = {}): SpeechMode {
   const voices = swedishVoices()
   // Never speak Swedish through a non-Swedish voice.
   if (!voices.length) {
-    // A recording is still better than nothing if we were asked for TTS.
     if (entry) {
       playRecording(entry)
       return 'recording'
@@ -128,7 +156,7 @@ export function speak(text: string, opts: SpeakOptions = {}): SpeechMode {
   return 'tts'
 }
 
-/** Attribution for every recording actually shipped, for the credits screen. */
+/** Licence tallies for the credits screen. */
 export function recordingCredits(): { license: string; count: number }[] {
   const byLicense = new Map<string, number>()
   for (const e of Object.values(RECORDINGS)) {
